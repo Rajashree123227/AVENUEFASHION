@@ -1,0 +1,53 @@
+footer {
+  background-color: #f8f8f8;
+  .footer-links {
+    padding: 0px 0rem;
+    @include media-min-xl {
+      padding: 0px 9rem;
+    }
+    .row {
+      --bs-gutter-x: 0rem;
+      --bs-gutter-y: 0;
+    }
+    h6 {
+      color: #827d7e;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    ul {
+      li {
+        color: #a9a9a9;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    .award {
+      background-color: #333333;
+      padding: 2.4rem;
+      span {
+        font-size: 1.2rem;
+        font-weight: 300;
+        @media screen and (min-width: 1200px) {
+          font-size: 1.5rem;
+        }
+        @include media-min-lg {
+          font-size: 1.8rem;
+        }
+      }
+    }
+    .icons-footer {
+      background-color: #00c8c8;
+      padding: 4.1rem;
+    }
+  }
+}
+.copyright {
+  background-color: #333333;
+  .container {
+    padding: 0px 9rem;
+    span {
+      font-size: 13px;
+      color: #909090;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  .card-section {
+    .border-1 {
+      border-bottom: 1px solid #dfdada;
+    }
+    .card-headings {
+      ul {
+        li {
+          font-size: 0.8rem;
+          font-weight: 600;
+          @include media-min-lg {
+            margin-left: 1rem;
+            font-size: 0.7rem;
+            font-weight: 800;
+          }
+          .active {
+            color: #55d3d0 !important;
+          }
+        }
+      }
+    }
+  }
+  .card-pic {
+    strike {
+      color: #adadad;
+    }
+    .symbol {
+      color: #adadad;
+      font-size: 12px;
+      @include media-min-lg {
+        font-size: 1rem;
+      }
+    }
+    .img-text {
+      top: 79%;
+      h6 {
+        color: #969696;
+        font-weight: 700;
+        font-size: 12px;
+      }
+      p {
+        font-size: 13px;
+        color: #a2a2a2;
+      }
+      .icons-card {
+        font-size: 0.8rem;
+        .fa-cart-shopping {
+          background-color: #55d3d0 !important;
+        }
+        .fa-regular {
+          background-color: #727272;
+        }
+      }
+    }
+  }
+}

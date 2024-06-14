@@ -1,0 +1,77 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  .wrapper {
+    background-image: url(/public/images/herobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 0rem;
+    @include media-min-lg {
+      padding-bottom: 5rem;
+    }
+    .logo {
+      font-size: 1.2rem;
+      font-weight: 600;
+      word-spacing: 1.5rem;
+      .fashion {
+        font-weight: 500;
+      }
+    }
+
+    ul {
+      li {
+        .navbar-mens {
+          color: #55d3d0 !important;
+          font-weight: 600;
+          font-size: 12px;
+        }
+        .navbar-headings {
+          font-weight: 600;
+          font-size: 12px;
+        }
+      }
+      ul {
+        .drop-down {
+          @include media-min-xl {
+            width: 400px;
+          }
+          h6 {
+            color: #817c7d;
+          }
+          ul {
+            li {
+              color: #acacac;
+              font-size: 13px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    .dropdown-card {
+      background-color: black !important;
+    }
+    .search {
+      margin-left: 0rem !important;
+      @include media-min-lg {
+        margin-left: 2.5rem !important;
+      }
+    }
+    // about section
+    .banner {
+      .about-heading {
+        font-size: 10rem;
+        color: #575153;
+        @include media-min-xl {
+          font-size: 300px;
+        }
+      }
+      .collection {
+        margin-right: 12rem;
+        font-weight: 500;
+        color: #4c4c4c;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}
